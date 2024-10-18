@@ -6,7 +6,8 @@ import numpy as np
 # Cache the model loading process
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model('model/trained_model.keras')
+    model = tf.keras.models.load_model('model/trained_model.h5')
+
     return model
 
 # TensorFlow model prediction
