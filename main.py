@@ -117,7 +117,7 @@ elif app_mode == "Diagnosis":
     st.write("""
     Enhance your experience with the Diabetic Retinopathy Detection tool by downloading our comprehensive test dataset. 
     This dataset contains a variety of retinal images, useful for practicing and testing the diagnostic capabilities 
-    of your models. Click the button below to download the dataset in `.rar` format.
+    of our models. Click the button below to download the dataset in `.rar` format.
     """)
     
     # Download button for the test dataset
