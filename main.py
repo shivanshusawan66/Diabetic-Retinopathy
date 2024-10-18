@@ -7,7 +7,10 @@ import numpy as np
 @st.cache_resource
 def load_model():
     model = tf.keras.models.load_model('model/trained_model.h5')
+<<<<<<< HEAD
 
+=======
+>>>>>>> bc4f6c7e86cbf04e0a11a603e21deea266168312
     return model
 
 # TensorFlow model prediction
